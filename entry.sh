@@ -14,8 +14,6 @@ trap _term SIGINT
 echo "Starting..."
 echo "Resolution is $VNC_RES"
 echo "Password is $PASSWORD"
-echo $@ > /home/kevin/.config/openbox/autostart
-chown kevin:kevin /home/kevin/.config/openbox/autostart && chmod +x /home/foo/.config/openbox/autostart
 
 touch /root/init.sh
 /root/init.sh
